@@ -1,0 +1,7 @@
+,Dataset,dataset_sufix,query,example_result,duration
+6,simm_risk_data_eqderiv,20200723t1858,"SELECT COUNT(*) FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858""",[{'VarCharValue': '19818577'}],0 days 00:00:01.929851000
+7,simm_risk_data_eqderiv,20200723t1858,"SELECT risktype, amount FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858"" WHERE amount>10000","[{'VarCharValue': 'PV'}, {'VarCharValue': '17611.12'}]",0 days 00:00:26.724861000
+8,simm_risk_data_eqderiv,20200723t1858,"SELECT dbinserttime, SUM(amount) FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858"" GROUP BY dbinserttime","[{'VarCharValue': '20200723t192140.455834z'}, {'VarCharValue': '5.216214686069834E10'}]",0 days 00:00:04.179170000
+9,simm_risk_data_eqderiv,20200723t1858,"SELECT distinct(amount) FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858""",[{'VarCharValue': '61898.12'}],0 days 00:00:03.059230000
+10,simm_risk_data_eqderiv,20200723t1858,"SELECT amount, count(*) count FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858"" GROUP BY amount","[{'VarCharValue': '33432.12'}, {'VarCharValue': '245'}]",0 days 00:00:03.322275000
+11,simm_risk_data_eqderiv,20200723t1858,"SELECT amount, count(*) count FROM ""simm_poc"".""simm_risk_data_eqderiv_20200723t1858"" GROUP BY amount HAVING count(*)>1","[{'VarCharValue': '61898.12'}, {'VarCharValue': '229'}]",0 days 00:00:03.142105000

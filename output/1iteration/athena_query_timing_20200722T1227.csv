@@ -1,0 +1,2 @@
+,Dataset,dataset_sufix,query,example_result,duration
+0,simm_risk_data_eqderiv,20200722t1212,"SELECT COUNT(*) FROM ""simm_poc"".""simm_risk_data_eqderiv_20200722t1212""",{'VarCharValue': '10430837'},0 days 00:00:03.542793000

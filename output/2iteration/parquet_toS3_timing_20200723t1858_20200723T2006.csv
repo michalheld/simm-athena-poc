@@ -1,0 +1,2 @@
+,Dataset,dataset_sufix,use_dict_encoding,compression,partition_cols,load_id,Dataset size,duration
+0,simm_risk_data_eqderiv,20200723t1858,true,snappy,['tabledate'],150000,1043083,0 days 00:00:22.935705000
