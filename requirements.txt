@@ -41,7 +41,7 @@ json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1591810480056/wo
 jsonschema @ file:///C:/ci/jsonschema_1594363671836/work
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594163838128/work
 jupyter-core==4.6.3
-jupyterlab==2.2.0
+jupyterlab==2.2.10
 jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
 keyring @ file:///C:/ci/keyring_1593109817825/work
 kiwisolver==1.2.0
