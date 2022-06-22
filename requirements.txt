@@ -56,7 +56,7 @@ mkl-service==2.3.0
 nbconvert @ file:///C:/ci/nbconvert_1594372737468/work
 nbformat==5.0.7
 notebook @ file:///D:/bld/notebook_1594079038368/work
-numpy==1.18.5
+numpy==1.22.0
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1594166760263/work
 packaging==20.4
 pandas @ file:///C:/ci/pandas_1592841747005/work
